@@ -1899,6 +1899,12 @@ section {
   flex-direction: column;
   gap: 1rem;
   width: 100%;
+  transition: transform 0.2s ease-in-out; /* This line adds the smooth animation */
+}
+
+.text_block_1_item:hover {
+  transform: translateY(-5px); /* This line adds the lift effect */
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
